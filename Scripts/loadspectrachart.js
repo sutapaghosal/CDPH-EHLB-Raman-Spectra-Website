@@ -7,7 +7,7 @@ google.setOnLoadCallback(drawChart);
 
 // File path where spectral data are located
 // var filepath = 'http://localhost:8888/tree/Spectra/';
-var filepath = 'http://sutapaghosal.github.io/CDPH-EHLB-Raman-Spectra-Website/Spectra/'
+var filepath = 'https://sutapaghosal.github.io/CDPH-EHLB-Raman-Spectra-Website/Spectra/'
 
 // Dictionary mapping spectral folder names (broad categories i.e. Minerals)
 // to a list of all spectral data in that folder.
