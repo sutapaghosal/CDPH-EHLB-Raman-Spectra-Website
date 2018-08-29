@@ -8,7 +8,7 @@ body {
     padding: 0;
     background-image: url(Theme_.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: variable;
 }
 
 
