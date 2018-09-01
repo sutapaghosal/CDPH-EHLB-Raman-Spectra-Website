@@ -50,6 +50,18 @@ a:hover {
     color: #000000;
     background-color: #OOO;
 }
+#subtitle>ul>li {
+    display: inline;
+    padding: 1.5em;}
+#subtitle>ul {
+    background-color: #DDD;
+}
+#subtitle>ul>li>a {
+    color: ##000000;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #research {
     height:  auto;
     margin:  2.5%;
