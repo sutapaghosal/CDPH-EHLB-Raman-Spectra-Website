@@ -76,7 +76,12 @@ a:hover {
     object-fit: contain;
 }
 
-
+#contact {
+    height: 80%;
+    background-color: #DDD;
+    padding: 10px 10px 10px 10px;
+    margin:2.5%;
+}
 /* Footer for each page */
 #footer {
     text-align: center;
