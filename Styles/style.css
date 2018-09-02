@@ -45,6 +45,7 @@ a:hover {
 }
 
 #subtitle {
+    text-align:center;
     margin:2.5%;
     padding:10px;
     color: #000000;
@@ -59,7 +60,6 @@ a:hover {
 #subtitle>ul>li>a {
     color: ##000000;
     text-decoration: none;
-    text-align:center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
