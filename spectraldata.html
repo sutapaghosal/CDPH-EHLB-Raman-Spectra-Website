@@ -70,8 +70,21 @@
       <!-- ORDERED LIST OF PEAK SEARCH RESULTS (INITIALLY EMPTY,
 	   TO BE POPULATED BY loadspectra.js GIVEN PEAKS TO SEARCH)-->
       <ol id="peaksOut"> </ol>
-    </div>
+   
+	  </div>
 
+	 <!-- DESCRIPTION OF DATA PROCESSING-->
+      <p><strong><h2 style="text-align:center;">Data Processing</h2></strong></p>
+      <p style="text-align:center; font-size:120%;">For subtracting the fluorescence baseline from the raw spectra the <a href="https://www.osapublishing.org/as/abstract.cfm?uri=as-61-11-1225">Vancouver Raman Algorithm</a>, as developed by J. Zhao et. al., was employed.</p> 
+      <p style="text-align:center; font-size:120%;">Below we provide a MATLAB GUI implemetation of this fluorescence subtraction algorithm. 
+      <p style="text-align:center; font-size:120%;">Please note that you must have the MATLAB Compiler Runtime (MCR) Version 8.1 installed in order to run the executable (<a target="_blank" href="http://www.mathworks.com/products/compiler/mcr/">MCR Download Link</a>).
+      
+      <ul>
+	<!-- DOWNLOADS FOR BASELINE SUBTRACTION ALGORITHM -->
+       <p><h2 style="text-align:center;">BaselineSubGUI 1.0.0 <a href=""> x86 </a>|<a href="Downloads/BaselineSubGUI_1.0.0_x64.zip"> x64 </a><h2><p>
+      </ul>
+      
+    </div>  
 
     <div id="footer">
       <!-- PAGE FOOTER -->      
